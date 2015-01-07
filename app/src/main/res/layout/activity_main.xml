@@ -1,0 +1,36 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_grey"
+    android:icon="@drawable/studybuddy" >
+
+    <View
+        android:id="@+id/mainView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    
+    <TextView
+    android:id="@+id/emptyDeckView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:gravity="center"
+    android:text="@string/emptydeck_message"
+    android:textSize="20sp"
+    android:textColor="@color/default_screen_bg"
+    android:visibility="gone"/>
+    
+    
+    <!-- The navigation drawer -->
+    <ListView
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@drawable/noobjohn"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>

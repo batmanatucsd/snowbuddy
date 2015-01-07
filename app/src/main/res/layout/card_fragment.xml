@@ -1,0 +1,38 @@
+<ViewFlipper xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardViewFlipper"
+    android:layout_width="match_parent"
+    android:layout_height="430dp"
+    android:layout_gravity="center"
+    android:background="#D3D3D3" >
+
+    <TextView
+        android:id="@+id/frontText"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="13"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:text="@string/hello_world"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/backText"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:maxLines="13"
+        android:padding="16dp"
+        android:scrollbars="vertical"
+        android:text="@string/hello_world"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+</ViewFlipper>
